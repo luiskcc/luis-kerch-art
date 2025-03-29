@@ -4,7 +4,7 @@ export default function SixthPage() {
         <div className="relative w-full h-full">
             <div className="absolute inset-0 flex items-center justify-center">
                 <Image 
-                    src="/6.1.jpg" 
+                    src="/6_1.jpg" 
                     alt="Concrete stairs with light" 
                     fill 
                     className="object-cover sm:object-contain sm:object-center" 
