@@ -271,9 +271,10 @@ export default function CvOnePage() {
                 </div>
 
                 {/* Page Number */}
-                <div className="mt-8 flex justify-center">
-                    <p className="font-jost text-lg">62</p>
-                </div>
+                <footer className="mt-16 md:mt-24 flex justify-center items-center">
+                    <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
+                    <p className="font-jost text-lg">15</p>
+                </footer>
             </div>
         </div>
     );

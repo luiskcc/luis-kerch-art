@@ -242,9 +242,10 @@ export default function CvTwoPage() {
                 </div>
 
                 {/* Page Number */}
-                <div className="mt-8 flex justify-center">
-                    <p className="font-jost text-lg">63</p>
-                </div>
+                <footer className="mt-16 md:mt-24 flex justify-center items-center">
+                    <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
+                    <p className="font-jost text-lg">16</p>
+                </footer>
             </div>
         </div>
     );
