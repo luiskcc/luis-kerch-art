@@ -1,95 +1,66 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import Hero from './components/Hero';
+import FirstPage from './components/FirstPage';
+import SecondPage from './components/SecondPage';
+import ThirdPage from './components/ThirdPage';
+import FourthPage from './components/FourthPage';
+import FifthPage from './components/FifthPage';
+import SixthPage from './components/SixthPage';
+import SeventhPage from './components/SeventhPage';
+import EighthPage from './components/EighthPage';
+import NinethPage from './components/NinethPage';
+import TenthPage from './components/TenthPage';
+import EleventhPage from './components/EleventhPage';
+import WeavingLight from './components/WeavingLight';
+import CvOnePage from './components/CvOnePage';
+import CvTwoPage from './components/CvTwoPage';
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <main className="relative">
+      <section className ="h-screen">
+        <Hero />
+      </section>
+      <section className ="min-h-screen mb-24">
+        <FirstPage />
+      </section>
+      <section className ="h-screen mt-24">
+        <SecondPage />
+      </section>
+      <section className ="min-h-screen mb-24">
+        <ThirdPage />
+      </section>
+      <section className ="h-screen mt-24">
+        <FourthPage />
+      </section>
+      <section className ="h-screen">
+        <FifthPage />
+      </section>
+      <section className ="h-screen">
+        <SixthPage />
+      </section>
+      <section className ="h-screen">
+        <SeventhPage />
+      </section>  
+      <section className ="h-screen">
+        <EighthPage />
+      </section>
+      <section className ="h-screen">
+        <NinethPage />
+      </section>
+      <section className ="h-screen">
+        <TenthPage />
+      </section>
+      <section className ="h-screen">
+        <EleventhPage />
+      </section>
+      <section className ="min-h-screen">
+        <WeavingLight />
+      </section>
+      <section className ="min-h-screen">
+        <CvOnePage />
+      </section>
+      <section className ="min-h-screen">
+        <CvTwoPage />
+      </section>
+    </main>
   );
 }
