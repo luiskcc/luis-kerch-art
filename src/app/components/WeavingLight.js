@@ -50,9 +50,9 @@ export default function WeavingLight() {
                     </p>
                     <div className="space-y-4 font-jost text-sm md:text-base leading-relaxed">
                         <p>
-                            For me, Luis Kerch's paintings are not mere
+                            For me, Luis Kerch&apos;s paintings are not mere
                             representations of external landscapes, but direct
-                            expressions of the artist's internal emotional state.
+                            expressions of the artist&apos;s internal emotional state.
                             Each brushstroke is a profound meditation. Luis
                             seems like a philosopher of light, where light itself
                             presents and represents itself in his paintings as the
@@ -69,7 +69,7 @@ export default function WeavingLight() {
                         </p>
                         <p>
                             Luis shows us how he sees the world, poetically and
-                            sublimely in love with light. It's as if he inhabits his
+                            sublimely in love with light. It&apos;s as if he inhabits his
                             paintings with genius mastery, leading us to question
                             reality itself, creating a sonata to light.
                         </p>

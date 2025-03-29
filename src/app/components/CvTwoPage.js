@@ -68,8 +68,8 @@ export default function CvTwoPage() {
                                     <p className="font-jost font-medium mb-1">2012</p>
                                     <p className="font-jost">
                                         Finalist in the international contest of<br />
-                                        painting and sculpture. "The Threadneedle Prize<br />
-                                        For Painting & Sculpture 2012." (Selected from<br />
+                                        painting and sculpture. &quot;The Threadneedle Prize<br />
+                                        For Painting & Sculpture 2012.&quot; (Selected from<br />
                                         4000 works) Mall Galleries, London, UK.
                                     </p>
                                 </div>
@@ -106,7 +106,7 @@ export default function CvTwoPage() {
                                 <div>
                                     <p className="font-jost font-medium mb-1">2002</p>
                                     <p className="font-jost">
-                                        Group Show "7X7." Art Room<br />
+                                        Group Show &quot;7X7.&quot; Art Room<br />
                                         The Caixa. The lagoon. Tenerife, Spain.
                                     </p>
                                 </div>
@@ -127,7 +127,7 @@ export default function CvTwoPage() {
                                 <div>
                                     <p className="font-jost font-medium mb-1">1995</p>
                                     <p className="font-jost">
-                                        LIII National Salon "Arturo Michelena".
+                                        LIII National Salon &quot;Arturo Michelena&quot;.
                                     </p>
                                 </div>
                             </div>
