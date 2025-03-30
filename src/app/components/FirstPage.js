@@ -56,8 +56,8 @@ export default function FirstPage() {
                         </p>
                         
                         <p className="mb-8">
-                            Luis Kerch (1962) nace en México y actualmente vive 
-                            entre Tenerife y Baja California. Es Licenciado en Bellas 
+                            Kerch actualmente vive 
+                            entre Las Islas Canarias y Baja California. Es Licenciado en Bellas 
                             Artes por la Universidad de Miami, Florida. Estudió en 
                             Pratt Institute, Brooklyn, Nueva York, obteniendo, en 
                             1990, el título de Master of Science in Communication 
