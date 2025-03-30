@@ -32,8 +32,37 @@ const jost = Jost({
 });
 
 export const metadata = {
-  title: "Luis Kerch 2025",
-  description: "Luis Kerch 2025",
+    title: "Luis Kerch | Artist Portfolio 2025",
+    description: "Explore the artistic works of Luis Kerch, a painter who creates ethereal landscapes through light and color. View paintings, exhibitions, and biography.",
+    keywords: ["Luis Kerch", "artist", "painter", "contemporary art", "exhibitions", "paintings"],
+    authors: [{ name: "Luis Kerch" }],
+    creator: "Luis Kerch",
+    publisher: "Luis Kerch Studio",
+    robots: "index, follow",
+    openGraph: {
+      title: "Luis Kerch | Contemporary Artist",
+      description: "Explore the artistic works of Luis Kerch, a painter who creates ethereal landscapes through light and color.",
+      url: "https://luiskerch.com",
+      siteName: "Luis Kerch",
+      images: [
+        {
+          url: "/hero_luis_kerch.jpg", // Make sure this image exists in your public folder
+          width: 1200,
+          height: 630,
+          alt: "Luis Kerch Artwork",
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Luis Kerch | Contemporary Artist",
+      description: "Explore the artistic works of Luis Kerch, a painter who creates ethereal landscapes through light and color.",
+      images: ["/hero_luis_kerch.jpg"], // Make sure this image exists
+    },
+    viewport: "width=device-width, initial-scale=1",
+    themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }) {
