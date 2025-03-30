@@ -63,6 +63,14 @@ export const metadata = {
     },
     viewport: "width=device-width, initial-scale=1",
     themeColor: "#ffffff",
+    other: {
+      'whatsapp-platform': 'website',
+      'whatsapp-share-text': 'Check out Luis Kerch\'s beautiful artwork!',
+      'whatsapp-theme-color': '#25D366',
+      'whatsapp-share-title': 'Luis Kerch',
+      'whatsapp-share-description': 'Explore the artistic works of Luis Kerch, a painter who creates ethereal landscapes through light and color.',
+      'whatsapp-share-image': '/hero_luis_kerch.jpg',
+    }
 };
 
 export default function RootLayout({ children }) {
