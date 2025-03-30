@@ -1,6 +1,6 @@
 export default function EmotionalLandscape() {
     return (
-        <div className="min-h-screen w-full bg-gray-900 flex items-center justify-center p-4">
+        <div className="min-h-screen w-full bg-white flex items-center justify-center p-4">
             <div className="max-w-4xl w-full aspect-video">
                 <iframe
                     className="w-full h-full"
