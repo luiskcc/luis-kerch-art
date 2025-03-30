@@ -1,3 +1,4 @@
+import EmotionalLandscape from './components/EmotionalLandscape';
 import Hero from './components/Hero';
 import FirstPage from './components/FirstPage';
 import SecondPage from './components/SecondPage';
@@ -18,6 +19,9 @@ export default function Home() {
     <main className="relative">
       <section className ="h-screen">
         <Hero />
+      </section>
+      <section className ="h-screen">
+        <EmotionalLandscape />
       </section>
       <section className ="min-h-screen mb-24">
         <FirstPage />
