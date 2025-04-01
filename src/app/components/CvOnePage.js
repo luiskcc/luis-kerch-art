@@ -6,7 +6,7 @@ export default function CvOnePage() {
                     {/* Left Column */}
                     <div>
                         <section className="mb-12">
-                            <h2 className="font-jost text-3xl font-medium mb-8">EDUCATION</h2>
+                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">EDUCATION</h2>
                             <div className="space-y-8">
                                 <div>
                                     <p className="font-jost font-medium mb-1">1986 - 1990</p>
@@ -29,7 +29,7 @@ export default function CvOnePage() {
                         </section>
 
                         <section className="mb-12">
-                            <h2 className="font-jost text-3xl font-medium mb-8">SOLO SHOWS</h2>
+                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">SOLO SHOWS</h2>
                             <div className="space-y-6">
                                 <div>
                                     <p className="font-jost font-medium mb-1">2024</p>
@@ -226,7 +226,7 @@ export default function CvOnePage() {
                         </section>
 
                         <section className="mb-12">
-                            <h2 className="font-jost text-3xl font-medium mb-8">GROUP EXHIBITIONS</h2>
+                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">GROUP EXHIBITIONS</h2>
                             <div className="space-y-6">
                                 <div>
                                     <p className="font-jost font-medium mb-1">2021</p>

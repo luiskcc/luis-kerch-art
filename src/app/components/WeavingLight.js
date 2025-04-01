@@ -7,9 +7,9 @@ export default function WeavingLight() {
                     <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">
                         TEJIENDO LA LUZ
                     </h2>
-                    <p className="font-jost text-sm text-gray-500 mb-8">
-                        @soparadoart
-                    </p>
+                    <a href="https://www.instagram.com/osoparadoart" className="font-jost text-sm text-gray-500 mb-8">
+                        @osoparadoart
+                    </a>
                     <div className="space-y-4 font-jost text-sm md:text-base leading-relaxed">
                         <p>
                             Para mi las pinturas de Luis Kerch no son meras
@@ -45,9 +45,9 @@ export default function WeavingLight() {
                     <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">
                         WEAVING LIGHT
                     </h2>
-                    <p className="font-jost text-sm text-gray-500 mb-8">
-                        @soparadoart
-                    </p>
+                    <a href="https://www.instagram.com/osoparadoart" className="font-jost text-sm text-gray-500 mb-8">
+                        @osoparadoart
+                    </a>
                     <div className="space-y-4 font-jost text-sm md:text-base leading-relaxed">
                         <p>
                             For me, Luis Kerch&apos;s paintings are not mere
