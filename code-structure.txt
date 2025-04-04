@@ -1,0 +1,21 @@
+
+-We are using this stack
+
+Next.js
+vanilla JS
+Tailwind.css 
+(No React)
+
+-Based on the images in the @public folder that have already been ordered. I want you to please create a component for each image:
+
+-Following its order starting off just after the @FirstPage.js  and finish off just before @WeavingLight.js 
+
+
+*Considerations:
+
+There is existing files and components already, please follow more or less the existing style 
+It has to be homogeneous simple layout and follow responsiveness
+
+It's pretty straight
+
+Thank you good-sir
