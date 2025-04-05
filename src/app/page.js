@@ -73,7 +73,6 @@ export default function Home() {
     { component: ArtworkImage, props: { src: "/038.jpg" }, className: "h-screen" },
     { component: ArtworkImage, props: { src: "/039.jpg" }, className: "h-screen" },
     { component: ArtworkImage, props: { src: "/040.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/041.jpg" }, className: "h-screen" },
     { component: ArtworkImage, props: { src: "/042.jpg" }, className: "h-screen" },
     { component: ArtworkImage, props: { src: "/043.jpg" }, className: "h-screen" },
     { component: ArtworkImage, props: { src: "/044.jpg" }, className: "h-screen" },
