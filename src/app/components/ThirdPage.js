@@ -72,13 +72,6 @@ export default function ThirdPage() {
                         A reality that we neither see nor can describe, but the
                         existence of which we are able to deduce.&quot;
                     </p>
-                    <p className="font-jost text-sm md:text-base leading-relaxed">
-                        Kerch currently divides his time working in Spain and
-                        Mexico. He plans to return to the English countryside
-                        to continue with his artworks and present them in the
-                        Caxton Contemporary
-                        Gallery, Whitstable, Kent, UK.
-                    </p>
                 </div>
                 <footer className="mt-16 md:mt-24 flex justify-center items-center">
                     <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
