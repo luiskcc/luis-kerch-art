@@ -5,88 +5,482 @@ import ThirdPage from './components/ThirdPage';
 import WeavingLight from './components/WeavingLight';
 import CvOnePage from './components/CvOnePage';
 import CvTwoPage from './components/CvTwoPage';
-import ArtworkImage from './components/ArtWorkImage';
+import Image from 'next/image';
+
+// Define CenteredImage OUTSIDE the Home function or at the top of the file
+function CenteredImage({ src, alt, ...props }) {
+  return (
+    <div className="flex items-center justify-center w-full h-full">
+      <Image
+        src={src}
+        alt={alt}
+        className="relativeo bject-cover sm:object-contain sm:object-center"
+        width={800}
+        height={800}
+        {...props}
+      />
+    </div>
+  );
+}
 
 export default function Home() {
   const pages = [
-    // Special components (unique layouts)
     { component: Hero, className: "h-screen" },
     { component: EmotionalLandscape, className: "h-screen" },
     { component: FirstPage, className: "min-h-screen mb-24" },
-    
-    // Artwork image (with file number 02)
-    { 
-      component: ArtworkImage,
-      props: { 
-        src: "/02.jpg", 
-        alt: "Concrete stairs with light", 
-        className: "object-cover object-right sm:object-contain sm:object-center" 
-      },
-      className: "h-screen mt-24" 
+    {
+      component: () => (
+        <CenteredImage
+          src="/02.jpg"
+          alt="Concrete stairs with light"
+        />
+      ),
+      className: "h-screen md:m-24"
     },
-    
+
     { component: ThirdPage, className: "min-h-screen mb-24" },
     
-    // Artwork images (with sequential file numbers)
-    { 
-      component: ArtworkImage, 
-      props: { 
-        src: "/03.jpg", 
-        className: "object-cover sm:object-contain sm:object-center" 
-      },
-      className: "h-screen mt-24" 
+    { component: () => (
+      <CenteredImage
+        src="/03.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+    className: "md:h-screen md:my-24"
+  },
+  { component: () => (
+    <CenteredImage
+      src="/05.jpg"
+      alt="Concrete stairs with light"
+    />
+  ),
+    className: "md:h-screen md:my-24"
+  },
+  { component: () => (
+    <CenteredImage
+      src="/04.jpg"
+      alt="Concrete stairs with light"
+      />
+    ),
+    className: "md:m-24"
+  },
+    { component: () => (
+      <CenteredImage
+        src="/08.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
     },
-    { component: ArtworkImage, props: { src: "/05.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/04.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/08.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/09.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/010.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/012.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/013.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/014.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/015.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/016.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/017.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/018.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/019.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/020.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/021.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/022.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/023.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/024.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/025.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/026.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/027.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/028.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/029.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/030.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/031.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/032.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/033.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/034.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/035.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/036.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/037.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/038.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/039.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/040.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/042.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/043.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/044.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/045.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/048.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/049.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/050.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/051.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/052.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/053.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/054.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/055.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/056.jpg" }, className: "h-screen" },
-    { component: ArtworkImage, props: { src: "/057.jpg" }, className: "h-screen" },
-    
-    
-    // Special components (unique layouts)
+    { component: () => (
+      <CenteredImage
+        src="/09.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/010.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/011.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/065.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/012.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/014.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/015.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/016.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/017.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/018.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/019.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/020.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/021.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/022.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/023.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/024.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/025.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/026.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/027.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/028.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/029.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/058.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/030.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/031.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/032.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/033.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/034.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/035.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/036.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/037.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/038.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/039.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/040.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/042.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/043.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/044.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/045.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/047.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/048.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/049.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/050.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/051.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "h-screen mt-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/052.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/053.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/054.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/055.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/061.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/062.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/059.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/056.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+    { component: () => (
+      <CenteredImage
+        src="/057.jpg" 
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "md:h-screen md:my-24"
+    },
+
     { component: WeavingLight, className: "min-h-screen" },
     { component: CvOnePage, className: "min-h-screen" },
     { component: CvTwoPage, className: "min-h-screen" },
@@ -94,9 +488,9 @@ export default function Home() {
 
   return (
     <main className="relative">
-      {pages.map(({ component: Component, props = {}, className }, index) => (
+      {pages.map(({ component: Component, className }, index) => (
         <section key={index} className={className}>
-          <Component {...props} />
+          <Component />
         </section>
       ))}
     </main>

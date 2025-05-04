@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Questrial } from "next/font/google";
 import { Jost } from "next/font/google";
-
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -81,6 +81,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="bg-white">
       <body className={`${geistSans.variable} ${geistMono.variable} ${questrial.variable} ${jost.variable} text-black bg-white min-h-screen`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
