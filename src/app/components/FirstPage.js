@@ -33,7 +33,7 @@ export default function FirstPage() {
             </header>
 
             {/* Main Content */}
-            <main className="mt-20 md:mt-32">
+            <main className="mt-20 md:mt-32 lg:pb-24">
                 <div className="max-w-2xl mx-auto">
                     {/* Title */}
                     <div className="mb-16 md:mb-24">
@@ -84,12 +84,6 @@ export default function FirstPage() {
                     </div>
                 </div>
             </main>
-
-            {/* Page Number */}
-            <footer className="mt-16 md:mt-24 flex justify-center items-center">
-                <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
-                <p className="font-jost text-lg">2</p>
-            </footer>
         </div>
     );
 }

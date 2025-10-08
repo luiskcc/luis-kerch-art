@@ -80,8 +80,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-white">
       <body className={`${geistSans.variable} ${geistMono.variable} ${questrial.variable} ${jost.variable} text-black bg-white min-h-screen`}>
-        <Analytics />
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -1,7 +1,7 @@
 
 export default function ThirdPage() {
     return (
-        <div className="min-h-screen w-full px-4 py-16 md:px-8 lg:px-16 bg-white">
+        <div className="min-h-screen w-full px-4 py-16 md:px-8 lg:py-24 lg:px-96 bg-white">
             <div className="max-w-4xl mx-auto">
                 {/* Introduction Section */}
                 <div className="mb-10 md:mb-16">
@@ -73,10 +73,6 @@ export default function ThirdPage() {
                         existence of which we are able to deduce.&quot;
                     </p>
                 </div>
-                <footer className="mt-16 md:mt-24 flex justify-center items-center">
-                    <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
-                    <p className="font-jost text-lg">4</p>
-                </footer>
             </div>
         </div>
     );

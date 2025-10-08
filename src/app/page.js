@@ -58,39 +58,36 @@ export default function Home() {
   },
   { component: () => (
     <CenteredImage
-      src="/04.jpg"
+      src="/001.jpeg"
       alt="Concrete stairs with light"
       />
     ),
-    className: "md:m-24"
   },
+  { component: WeavingLight, className: "min-h-screen my-12 md:my-24" },
+
+    { component: () => (
+      <CenteredImage
+        src="/04.jpg"
+        alt="Concrete stairs with light"
+      />
+    ),
+      className: "h-screen my-12 md:my-24"
+    },
+
+    { component: CvOnePage, className: "min-h-screen my-12 md:my-24" },
+    { component: CvTwoPage, className: "min-h-screen my-12 md:my-24" },
+
     { component: () => (
       <CenteredImage
         src="/08.jpg"
         alt="Concrete stairs with light"
-      />
-    ),
-      className: "md:h-screen md:my-24"
+        />
+      ),
+      className: "my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
         src="/09.jpg"
-        alt="Concrete stairs with light"
-      />
-    ),
-      className: "md:h-screen md:my-24"
-    },
-    { component: () => (
-      <CenteredImage
-        src="/010.jpg"
-        alt="Concrete stairs with light"
-      />
-    ),
-      className: "md:h-screen md:my-24"
-    },
-    { component: () => (
-      <CenteredImage
-        src="/011.jpg"
         alt="Concrete stairs with light"
       />
     ),
@@ -368,14 +365,7 @@ export default function Home() {
     ),
       className: "md:h-screen md:my-24"
     },
-    { component: () => (
-      <CenteredImage
-        src="/047.jpg" 
-        alt="Concrete stairs with light"
-      />
-    ),
-      className: "md:h-screen md:my-24"
-    },
+
     { component: () => (
       <CenteredImage
         src="/048.jpg" 
@@ -480,10 +470,6 @@ export default function Home() {
     ),
       className: "md:h-screen md:my-24"
     },
-
-    { component: WeavingLight, className: "min-h-screen" },
-    { component: CvOnePage, className: "min-h-screen" },
-    { component: CvTwoPage, className: "min-h-screen" },
   ];
 
   return (

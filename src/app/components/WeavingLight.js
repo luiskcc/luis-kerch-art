@@ -1,6 +1,6 @@
 export default function WeavingLight() {
     return (
-        <div className="min-h-screen w-full bg-white px-4 py-16 md:px-8 lg:px-16">
+        <div className="min-h-screen w-full bg-white px-4 md:px-8 lg:px-24">
             <div className="max-w-3xl mx-auto">
                 {/* Spanish Section */}
                 <div className="mb-16">
@@ -75,12 +75,6 @@ export default function WeavingLight() {
                         </p>
                     </div>
                 </div>
-
-                {/* Page Number */}
-                <footer className="mt-16 md:mt-24 flex justify-center items-center">
-                    <div className="w-px h-12 bg-current opacity-50 mb-4"></div>
-                    <p className="font-jost text-lg">60</p>
-                </footer>
             </div>
         </div>
     );

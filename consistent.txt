@@ -1,0 +1,6 @@
+Do whatever you have to do to make the site consistent:
+
+-Texts margins and paddings consistent and with enough spacing
+- Make sure the flow stays the same but with enough margin in between images and Texts
+- The width of the texts as to be consistent
+- Respect the dynamic of each individual image as they have different formats for both small and large screens
