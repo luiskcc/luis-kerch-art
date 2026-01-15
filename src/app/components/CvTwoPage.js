@@ -10,6 +10,14 @@ export default function CvTwoPage() {
                                 <div>
                                     <p className="font-jost text-sm mb-1">2015</p>
                                     <p className="font-jost text-sm">
+                                        Basel, ArtMiami.Context.<br />
+                                        Alfredo Ginocchio Gallery<br />
+                                        (Mex), Miami, Florida, USA.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2015</p>
+                                    <p className="font-jost text-sm">
                                         Auction The Group of Sixteen.<br />
                                         City of Mexico, Mexico.
                                     </p>
@@ -69,7 +77,7 @@ export default function CvTwoPage() {
                                     <p className="font-jost text-sm">
                                         Finalist in the international contest of<br />
                                         painting and sculpture. &quot;The Threadneedle Prize<br />
-                                        For Painting & Sculpture 2012.&quot; (Selected from<br />
+                                        For Painting & Sculpture 2012&quot;. (Selected from<br />
                                         4000 works) Mall Galleries, London, UK.
                                     </p>
                                 </div>
@@ -106,7 +114,7 @@ export default function CvTwoPage() {
                                 <div>
                                     <p className="font-jost text-sm mb-1">2002</p>
                                     <p className="font-jost text-sm">
-                                        Group Show &quot;7X7.&quot; Art Room<br />
+                                        Group Show &quot;7X7&quot;. Art Room<br />
                                         The Caixa. The lagoon. Tenerife, Spain.
                                     </p>
                                 </div>

@@ -23,7 +23,7 @@ export default function Hero() {
                     OBRAS
                 </p>
                 <p className="text-xl font-jost font-thin tracking-wider text-white opacity-80">
-                    2 0 2 5
+                    2 0 2 6
                 </p>
             </div>
         </div>

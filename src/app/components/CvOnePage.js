@@ -126,49 +126,6 @@ export default function CvOnePage() {
                                 </div>
                             </div>
                         </section>
-
-                        <section className="mb-12">
-                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">GROUP EXHIBITIONS</h2>
-                            <div className="space-y-6">
-                                <div>
-                                    <p className="font-jost text-sm mb-1">2021</p>
-                                    <p className="font-jost text-sm">
-                                        Summer Shorts.<br />
-                                        ATC Gallery, Santa Cruz de Tenerife, Spain.
-                                    </p>
-                                </div>
-                                <div>
-                                    <p className="font-jost text-sm mb-1">2020</p>
-                                    <p className="font-jost text-sm">
-                                        Paintings.<br />
-                                        Drexel Gallery, Monterrey. Mexico.
-                                    </p>
-                                </div>
-                                <div>
-                                    <p className="font-jost text-sm mb-1">2016</p>
-                                    <p className="font-jost text-sm">
-                                        Art Miami. Context.<br />
-                                        Alfredo Ginocchio Gallery (Mex), Miami.
-                                    </p>
-                                </div>
-                                <div>
-                                    <p className="font-jost text-sm mb-1">2016</p>
-                                    <p className="font-jost text-sm">
-                                        Preach Art. CUC.<br />
-                                        Cultural University Center.<br />
-                                        Autonomous University of Mexico. Mexco City
-                                    </p>
-                                </div>
-                                <div>
-                                    <p className="font-jost text-sm mb-1">2015</p>
-                                    <p className="font-jost text-sm">
-                                        Basel, ArtMiami.Context.<br />
-                                        Alfredo Ginocchio Gallery<br />
-                                        (Mex), Miami, Florida, USA.
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
                     </div>
 
                     {/* Right Column */}
@@ -176,9 +133,13 @@ export default function CvOnePage() {
                         <section className="mb-12 mt-0 md:mt-[60px]">
                             <div className="space-y-6">
                                 <div>
+                                    <p className="font-jost text-sm">
+                                        Monserrate Palace, Sintra, Portugal.
+                                    </p>
+                                </div>
+                                <div>
                                     <p className="font-jost text-sm mb-1">2013</p>
                                     <p className="font-jost text-sm">
-                                        Monserrate Palace, Sintra, Portugal.<br />
                                         Athenaeum of La Laguna. Tenerife, Spain.
                                     </p>
                                 </div>
@@ -263,6 +224,48 @@ export default function CvOnePage() {
                                     <p className="font-jost text-sm">
                                         B.F.A. Exhibition, The New Gallery, University of<br />
                                         Miami. Florida, USA.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="mb-12">
+                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">GROUP EXHIBITIONS</h2>
+                            <div className="space-y-6">
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2025</p>
+                                    <p className="font-jost text-sm">
+                                        What's Next from here Alfredo Ginocchio Gallery.<br />
+                                        Baja California, México.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2021</p>
+                                    <p className="font-jost text-sm">
+                                        Summer Shorts.<br />
+                                        ATC Gallery, Santa Cruz de Tenerife, Spain.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2020</p>
+                                    <p className="font-jost text-sm">
+                                        Paintings.<br />
+                                        Drexel Gallery, Monterrey. Mexico.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2016</p>
+                                    <p className="font-jost text-sm">
+                                        Art Miami. Context.<br />
+                                        Alfredo Ginocchio Gallery (Mex), Miami.
+                                    </p>
+                                </div>
+                                <div>
+                                    <p className="font-jost text-sm mb-1">2016</p>
+                                    <p className="font-jost text-sm">
+                                        Preach Art. CUC.<br />
+                                        Cultural University Center.<br />
+                                        Autonomous University of Mexico. Mexco City
                                     </p>
                                 </div>
                             </div>
