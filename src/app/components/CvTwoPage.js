@@ -1,12 +1,12 @@
 export default function CvTwoPage() {
     return (
-        <div className="min-h-screen w-full bg-white px-4 py-16 md:px-8 lg:px-16">
+        <div className="min-h-screen w-full bg-white px-3 py-8 sm:px-4 sm:py-12 md:px-8 md:py-16 lg:px-16">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
                     {/* Left Column */}
                     <div>
-                        <section className="mb-12">
-                            <div className="space-y-6">
+                        <section className="mb-8 sm:mb-10 md:mb-12">
+                            <div className="space-y-3 sm:space-y-4 md:space-y-6">
                                 <div>
                                     <p className="font-jost text-sm mb-1">2015</p>
                                     <p className="font-jost text-sm">
@@ -135,7 +135,9 @@ export default function CvTwoPage() {
                                 <div>
                                     <p className="font-jost text-sm mb-1">1995</p>
                                     <p className="font-jost text-sm">
-                                        LIII National Salon &quot;Arturo Michelena&quot;.
+                                        LIII National Salon &quot;Arturo Michelena&quot;.<br />
+                                        Athenaeum of Valencia. Prize: Monsanto.<br />
+                                        Valencia. Venezuela.
                                     </p>
                                 </div>
                             </div>
@@ -144,14 +146,8 @@ export default function CvTwoPage() {
 
                     {/* Right Column */}
                     <div>
-                        <section className="mb-12">
-                            <div className="space-y-6">
-                                <div>
-                                    <p className="font-jost text-sm">
-                                        Athenaeum of Valencia. Prize: Monsanto.<br />
-                                        Valencia. Venezuela.
-                                    </p>
-                                </div>
+                        <section className="mb-8 sm:mb-10 md:mb-12">
+                            <div className="space-y-3 sm:space-y-4 md:space-y-6">
                                 <div>
                                     <p className="font-jost text-sm mb-1">1995</p>
                                     <p className="font-jost text-sm">
@@ -234,7 +230,7 @@ export default function CvTwoPage() {
                                         Coral Gables, Florida, United States.
                                     </p>
                                 </div>
-                                <div className="mt-8">
+                                <div className="mt-4 sm:mt-6 md:mt-8">
                                     <p className="font-jost italic text-sm">
                                         Obra representada en colecciones.<br />
                                         La Colección Rucandio (El Pais, Madrid)<br />
