@@ -1,8 +1,8 @@
 
 export default function ThirdPage() {
     return (
-        <div className="min-h-screen w-full px-4 py-16 md:px-8 lg:py-24 lg:px-96 bg-white">
-            <div className="max-w-4xl mx-auto">
+        <div className="min-h-screen w-full px-4 py-16 md:px-8 lg:py-24 lg:px-16 bg-white">
+            <div className="max-w-3xl mx-auto">
                 {/* Introduction Section */}
                 <div className="mb-10 md:mb-16">
                     <h2 className="font-jost font-light text-xl md:text-2xl mb-4">
@@ -28,7 +28,7 @@ export default function ThirdPage() {
                 </div>
 
                 {/* Bio Section */}
-                <div className="space-y-4 md:space-y-6 text-gray-800">
+                <div className="space-y-8 text-gray-800">
                     <p className="font-jost text-sm md:text-base leading-relaxed">
                         Since the work carried in 2011 in Kent, UK, his artwork
                         has had an impact on the national and international
