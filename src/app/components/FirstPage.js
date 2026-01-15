@@ -2,7 +2,7 @@ export default function FirstPage() {
     return (
         <div className="min-h-screen px-4 py-6 md:px-8 lg:px-16">
             {/* Header with Email and Social Icons */}
-            <header className="flex justify-between items-center py-20 px-4 md:px-24 lg:px-32">
+            <header className="flex justify-between items-center py-20 px-4 md:px-8 lg:px-16">
                 <a href="mailto:arte@luiskerch.com" 
                    className="font-jost text-sm md:text-base tracking-wider hover:opacity-70 transition-opacity">
                     arte@luiskerch.com
@@ -33,8 +33,8 @@ export default function FirstPage() {
             </header>
 
             {/* Main Content */}
-            <main className="mt-20 md:mt-32 lg:pb-24">
-                <div className="max-w-2xl mx-auto">
+            <main className="mt-20 md:mt-32 px-4 md:px-8 lg:px-16">
+                <div className="max-w-3xl mx-auto">
                     {/* Title */}
                     <div className="mb-16 md:mb-24">
                         <h1 className="font-jost font-light text-5xl md:text-7xl tracking-[.25em] mb-8">
@@ -47,38 +47,38 @@ export default function FirstPage() {
                     </div>
 
                     {/* Description */}
-                    <div className="space-y-6 font-jost text-sm md:text-base leading-relaxed">
-                        <p className="mb-8">
-                            Kerch es un pintor plenairista. Organiza sus lienzos 
-                            a modo de reverberaciones que activan nuestra 
-                            imaginación dando luz a los paisajes que parecen 
+                    <div className="space-y-8 font-jost text-sm md:text-base leading-relaxed">
+                        <p>
+                            Kerch es un pintor plenairista. Organiza sus lienzos
+                            a modo de reverberaciones que activan nuestra
+                            imaginación dando luz a los paisajes que parecen
                             conformar.
                         </p>
-                        
-                        <p className="mb-8">
-                            Kerch actualmente vive 
-                            entre Las Islas Canarias y Baja California. Es Licenciado en Bellas 
-                            Artes por la Universidad de Miami, Florida. Estudió en 
-                            Pratt Institute, Brooklyn, Nueva York, obteniendo, en 
-                            1990, el título de Master of Science in Communication 
+
+                        <p>
+                            Kerch actualmente vive
+                            entre Las Islas Canarias y Baja California. Es Licenciado en Bellas
+                            Artes por la Universidad de Miami, Florida. Estudió en
+                            Pratt Institute, Brooklyn, Nueva York, obteniendo, en
+                            1990, el título de Master of Science in Communication
                             Design.
                         </p>
 
-                        <p className="mb-8">
-                            Sus imágenes son movedizas, oscilaciones 
-                            de luz y color originadas por manchas traslúcidas. Sus 
-                            motivos parecen no disolverse completamente para 
-                            permanecer en un estado de perpetua disolución. Al 
-                            igual que en Turner, en su obra la intensidad se funde 
+                        <p>
+                            Sus imágenes son movedizas, oscilaciones
+                            de luz y color originadas por manchas traslúcidas. Sus
+                            motivos parecen no disolverse completamente para
+                            permanecer en un estado de perpetua disolución. Al
+                            igual que en Turner, en su obra la intensidad se funde
                             con el instante.
                         </p>
 
                         <p>
-                            Luis Kerch ha expuesto en EEUU., 
-                            México, España, Reino Unido, Portugal y China. Entre 
-                            sus exposiciones se encuentran The Mall Galleries de 
-                            Londres, Centro Cultural de España en México y en 
-                            el Instituto Cabrera Pinto del Gobierno de Canarias en 
+                            Luis Kerch ha expuesto en EEUU.,
+                            México, España, Reino Unido, Portugal y China. Entre
+                            sus exposiciones se encuentran The Mall Galleries de
+                            Londres, Centro Cultural de España en México y en
+                            el Instituto Cabrera Pinto del Gobierno de Canarias en
                             2016 y 2011.
                         </p>
                     </div>

@@ -10,11 +10,11 @@ import Image from 'next/image';
 // Define CenteredImage OUTSIDE the Home function or at the top of the file
 function CenteredImage({ src, alt, ...props }) {
   return (
-    <div className="flex items-center justify-center w-full h-full">
+    <div className="flex items-center justify-center w-full h-full px-4 md:px-8">
       <Image
         src={src}
         alt={alt}
-        className="relativeo bject-cover sm:object-contain sm:object-center"
+        className="relative object-contain w-full h-full"
         width={800}
         height={800}
         {...props}
@@ -27,7 +27,7 @@ export default function Home() {
   const pages = [
     { component: Hero, className: "h-screen" },
     { component: EmotionalLandscape, className: "h-screen" },
-    { component: FirstPage, className: "min-h-screen mb-24" },
+    { component: FirstPage, className: "min-h-screen my-12 md:my-24" },
     {
       component: () => (
         <CenteredImage
@@ -35,10 +35,10 @@ export default function Home() {
           alt="Concrete stairs with light"
         />
       ),
-      className: "h-screen md:m-24"
+      className: "h-screen my-12 md:my-24"
     },
 
-    { component: ThirdPage, className: "min-h-screen mb-24" },
+    { component: ThirdPage, className: "min-h-screen my-12 md:my-24" },
     
     { component: () => (
       <CenteredImage
@@ -46,7 +46,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-    className: "md:h-screen md:my-24"
+    className: "h-screen my-12 md:my-24"
   },
   { component: () => (
     <CenteredImage
@@ -54,7 +54,7 @@ export default function Home() {
       alt="Concrete stairs with light"
     />
   ),
-    className: "md:h-screen md:my-24"
+    className: "h-screen my-12 md:my-24"
   },
   { component: () => (
     <CenteredImage
@@ -62,6 +62,7 @@ export default function Home() {
       alt="Concrete stairs with light"
       />
     ),
+    className: "h-screen my-12 md:my-24"
   },
   { component: WeavingLight, className: "min-h-screen my-12 md:my-24" },
 
@@ -83,7 +84,7 @@ export default function Home() {
         alt="Concrete stairs with light"
         />
       ),
-      className: "my-12 md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -91,7 +92,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -99,7 +100,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -107,7 +108,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -115,7 +116,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -123,7 +124,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -131,7 +132,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -139,7 +140,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -147,7 +148,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -155,7 +156,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -163,7 +164,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -171,7 +172,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -179,7 +180,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -187,7 +188,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -195,7 +196,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -203,7 +204,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -211,7 +212,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -219,7 +220,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -227,7 +228,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -235,7 +236,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -243,7 +244,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -251,7 +252,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -259,7 +260,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -267,7 +268,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -275,7 +276,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -283,7 +284,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -291,7 +292,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -299,7 +300,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -307,7 +308,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -315,7 +316,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -323,7 +324,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -331,7 +332,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -339,7 +340,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -347,7 +348,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -355,7 +356,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -363,7 +364,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
 
     { component: () => (
@@ -372,7 +373,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -380,7 +381,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -388,15 +389,15 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
-        src="/051.jpg" 
+        src="/051.jpg"
         alt="Concrete stairs with light"
       />
     ),
-      className: "h-screen mt-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -404,7 +405,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -412,7 +413,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -420,7 +421,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -428,7 +429,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -436,7 +437,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -444,7 +445,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -452,7 +453,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -460,7 +461,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
     { component: () => (
       <CenteredImage
@@ -468,7 +469,7 @@ export default function Home() {
         alt="Concrete stairs with light"
       />
     ),
-      className: "md:h-screen md:my-24"
+      className: "h-screen my-12 md:my-24"
     },
   ];
 

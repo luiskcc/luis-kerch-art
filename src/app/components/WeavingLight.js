@@ -1,6 +1,6 @@
 export default function WeavingLight() {
     return (
-        <div className="min-h-screen w-full bg-white px-4 md:px-8 lg:px-24">
+        <div className="min-h-screen w-full bg-white px-4 md:px-8 lg:px-16">
             <div className="max-w-3xl mx-auto">
                 {/* Spanish Section */}
                 <div className="mb-16">
@@ -10,7 +10,7 @@ export default function WeavingLight() {
                     <a href="https://www.instagram.com/osoparadoart" className="font-jost text-sm text-gray-500 mb-8">
                         @osoparadoart
                     </a>
-                    <div className="space-y-4 font-jost text-sm md:text-base leading-relaxed">
+                    <div className="space-y-8 font-jost text-sm md:text-base leading-relaxed">
                         <p>
                             Para mi las pinturas de Luis Kerch no son meras
                             representaciones de paisajes externos, sino
@@ -48,7 +48,7 @@ export default function WeavingLight() {
                     <a href="https://www.instagram.com/osoparadoart" className="font-jost text-sm text-gray-500 mb-8">
                         @osoparadoart
                     </a>
-                    <div className="space-y-4 font-jost text-sm md:text-base leading-relaxed">
+                    <div className="space-y-8 font-jost text-sm md:text-base leading-relaxed">
                         <p>
                             For me, Luis Kerch&apos;s paintings are not mere
                             representations of external landscapes, but direct
