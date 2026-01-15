@@ -235,7 +235,7 @@ export default function CvOnePage() {
                                 <div>
                                     <p className="font-jost text-sm mb-1">2025</p>
                                     <p className="font-jost text-sm">
-                                        What's Next from here Alfredo Ginocchio Gallery.<br />
+                                        What&apos;s Next from here Alfredo Ginocchio Gallery.<br />
                                         Baja California, México.
                                     </p>
                                 </div>
