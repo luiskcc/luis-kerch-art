@@ -1,13 +1,13 @@
 export default function CvOnePage() {
     return (
-        <div className="min-h-screen w-full bg-white px-4 py-16 md:px-8 lg:px-16">
+        <div className="min-h-screen w-full bg-white px-3 py-8 sm:px-4 sm:py-12 md:px-8 md:py-16 lg:px-16">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
                     {/* Left Column */}
                     <div>
-                        <section className="mb-12">
-                            <h2 className="font-jost uppercase text-lg md:text-xl tracking-wide mb-4">EDUCATION</h2>
-                            <div className="space-y-8">
+                        <section className="mb-8 sm:mb-10 md:mb-12">
+                            <h2 className="font-jost uppercase text-base sm:text-lg md:text-xl tracking-wide mb-3 sm:mb-4">EDUCATION</h2>
+                            <div className="space-y-4 sm:space-y-6 md:space-y-8">
                                 <div>
                                     <p className="font-jost text-sm mb-1">1986 - 1990</p>
                                     <p className="font-jost text-sm">
@@ -28,9 +28,9 @@ export default function CvOnePage() {
                             </div>
                         </section>
 
-                        <section className="mb-12">
-                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">SOLO SHOWS</h2>
-                            <div className="space-y-6">
+                        <section className="mb-8 sm:mb-10 md:mb-12">
+                            <h2 className="font-jost font-medium uppercase text-base sm:text-lg md:text-xl tracking-wide mb-3 sm:mb-4">SOLO SHOWS</h2>
+                            <div className="space-y-3 sm:space-y-4 md:space-y-6">
                                 <div>
                                     <p className="font-jost text-sm mb-1">2024</p>
                                     <p className="font-jost text-sm">
@@ -42,7 +42,7 @@ export default function CvOnePage() {
                                     <p className="font-jost text-sm mb-1">2023</p>
                                     <p className="font-jost text-sm">
                                         Perception.<br />
-                                        ATC Gallery. Tenerife, Canay Islands, Spain.
+                                        ATC Gallery. Tenerife, Canary Islands, Spain.
                                     </p>
                                 </div>
                                 <div>
@@ -78,7 +78,7 @@ export default function CvOnePage() {
                                     <p className="font-jost text-sm mb-1">2018</p>
                                     <p className="font-jost text-sm">
                                         From the southern islands.<br />
-                                        Alfredo Ginocchio Gallery., CDM México.
+                                        Alfredo Ginocchio Gallery, CDM México.
                                     </p>
                                 </div>
                                 <div>
@@ -95,7 +95,7 @@ export default function CvOnePage() {
                                         Light, horizon and wall.<br />
                                         Instituto Cabrera Pinto.<br />
                                         Gallery of the Government of the Canary Islands,<br />
-                                        La Lagun. Tenerife, Spain.
+                                        La Laguna. Tenerife, Spain.
                                     </p>
                                 </div>
                                 <div>
@@ -121,7 +121,8 @@ export default function CvOnePage() {
                                 <div>
                                     <p className="font-jost text-sm mb-1">2013</p>
                                     <p className="font-jost text-sm">
-                                        The imagined garden.
+                                        The imagined garden.<br />
+                                        Monserrate Palace, Sintra, Portugal.
                                     </p>
                                 </div>
                             </div>
@@ -130,13 +131,8 @@ export default function CvOnePage() {
 
                     {/* Right Column */}
                     <div>
-                        <section className="mb-12 mt-0 md:mt-[60px]">
-                            <div className="space-y-6">
-                                <div>
-                                    <p className="font-jost text-sm">
-                                        Monserrate Palace, Sintra, Portugal.
-                                    </p>
-                                </div>
+                        <section className="mb-8 sm:mb-10 md:mb-12 mt-0 md:mt-[60px]">
+                            <div className="space-y-3 sm:space-y-4 md:space-y-6">
                                 <div>
                                     <p className="font-jost text-sm mb-1">2013</p>
                                     <p className="font-jost text-sm">
@@ -229,9 +225,9 @@ export default function CvOnePage() {
                             </div>
                         </section>
 
-                        <section className="mb-12">
-                            <h2 className="font-jost font-medium uppercase text-lg md:text-xl tracking-wide mb-4">GROUP EXHIBITIONS</h2>
-                            <div className="space-y-6">
+                        <section className="mb-8 sm:mb-10 md:mb-12">
+                            <h2 className="font-jost font-medium uppercase text-base sm:text-lg md:text-xl tracking-wide mb-3 sm:mb-4">GROUP EXHIBITIONS</h2>
+                            <div className="space-y-3 sm:space-y-4 md:space-y-6">
                                 <div>
                                     <p className="font-jost text-sm mb-1">2025</p>
                                     <p className="font-jost text-sm">
@@ -265,7 +261,7 @@ export default function CvOnePage() {
                                     <p className="font-jost text-sm">
                                         Preach Art. CUC.<br />
                                         Cultural University Center.<br />
-                                        Autonomous University of Mexico. Mexco City
+                                        Autonomous University of Mexico. Mexico City
                                     </p>
                                 </div>
                             </div>
